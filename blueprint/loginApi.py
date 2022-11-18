@@ -2,7 +2,7 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, Blueprint, jsonify
 from flask_jwt_extended import create_access_token, get_jwt_identity, jwt_required, set_access_cookies, unset_jwt_cookies, verify_jwt_in_request
 import hashlib
-
+from datetime import datetime, timedelta
 # Import blueprint
 from init import jwt
 from blueprint.helpers.queryLogin import qUser
@@ -20,7 +20,6 @@ def login():
         password = request.json.get("password", None)
         password = hashlib.sha256(password.encode('utf-8')).hexdigest()
         userData = qUser.userLogin(username)
-        
         if userData != None:
             if userData[2] == password:
                 
@@ -116,3 +115,47 @@ def logout():
     response = jsonify({"msg": "Logout Successful"})
     unset_jwt_cookies(response)
     return response
+
+@loginApi.route('/api/users', methods = ['GET'])
+@jwt_required(locations=['cookies','headers'])
+def usuarios():
+    usuarios = qUser.traer_usuarios()
+    jsonUsuario = []
+    for data in usuarios:
+            jsonUsuario.append({
+                'id_user': data[0],
+                'username': data[1],
+                'email': data[3],
+                'role': data[4]
+            })
+    return jsonify(jsonUsuario)
+
+@loginApi.route('/api/users/<id>', methods = ['GET','POST','DELETE'])
+@jwt_required(locations=['cookies','headers'])
+def usuario(id):
+    if request.method == "GET":
+        usuario = qUser.traer_un_usuarios(id)
+        if usuario != (None or ()):
+            return jsonify({
+                'id_user': usuario[0],
+                'username': usuario[1],
+                'email': usuario[3],
+                'role': usuario[4]
+            })
+        
+        else:
+            return jsonify({
+                'msg': 'Not Found'
+            }) ,404
+            
+    if request.method == "POST":
+        username = request.json.get("username", None)
+        email = request.json.get("email", None)
+        password = request.json.get("password", None)
+        password = hashlib.sha256(password.encode('utf-8')).hexdigest()
+        role = request.json.get("role", None)
+        
+        return jsonify(qUser.editar_usuario(id,username,password,email,role))
+    
+    if request.method == "delete":
+        return jsonify(qUser.eliminar_usuario(id))
