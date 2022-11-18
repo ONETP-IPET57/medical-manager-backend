@@ -1,0 +1,202 @@
+[
+	{
+		"id_zona": 1,
+		"nombre": "Galvin",
+		"numero": 2,
+		"id_forma_llamada": 0,
+		"descripcion": "Nunc ut erat. Sed",
+		"estado": 1
+	},
+	{
+		"id_zona": 2,
+		"nombre": "Patience",
+		"numero": 2,
+		"id_forma_llamada": 0,
+		"descripcion": "arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien,",
+		"estado": 1
+	},
+	{
+		"id_zona": 3,
+		"nombre": "Keefe",
+		"numero": 7,
+		"id_forma_llamada": 1,
+		"descripcion": "Suspendisse eleifend. Cras sed leo. Cras",
+		"estado": 1
+	},
+	{
+		"id_zona": 4,
+		"nombre": "Vladimir",
+		"numero": 8,
+		"id_forma_llamada": 0,
+		"descripcion": "magna nec quam. Curabitur",
+		"estado": 1
+	},
+	{
+		"id_zona": 5,
+		"nombre": "Amela",
+		"numero": 1,
+		"id_forma_llamada": 1,
+		"descripcion": "ante lectus convallis est, vitae",
+		"estado": 0
+	},
+	{
+		"id_zona": 6,
+		"nombre": "Gareth",
+		"numero": 8,
+		"id_forma_llamada": 0,
+		"descripcion": "augue scelerisque mollis. Phasellus libero",
+		"estado": 0
+	},
+	{
+		"id_zona": 7,
+		"nombre": "Todd",
+		"numero": 5,
+		"id_forma_llamada": 0,
+		"descripcion": "aliquam eu, accumsan sed, facilisis vitae, orci. Phasellus dapibus",
+		"estado": 0
+	},
+	{
+		"id_zona": 8,
+		"nombre": "Isabella",
+		"numero": 8,
+		"id_forma_llamada": 0,
+		"descripcion": "ridiculus mus. Proin vel nisl. Quisque fringilla euismod",
+		"estado": 0
+	},
+	{
+		"id_zona": 9,
+		"nombre": "Yuri",
+		"numero": 6,
+		"id_forma_llamada": 0,
+		"descripcion": "faucibus ut, nulla.",
+		"estado": 0
+	},
+	{
+		"id_zona": 10,
+		"nombre": "Ulric",
+		"numero": 5,
+		"id_forma_llamada": 1,
+		"descripcion": "Nulla tempor",
+		"estado": 1
+	},
+	{
+		"id_zona": 11,
+		"nombre": "Rose",
+		"numero": 9,
+		"id_forma_llamada": 1,
+		"descripcion": "semper pretium neque. Morbi quis urna. Nunc quis arcu vel",
+		"estado": 1
+	},
+	{
+		"id_zona": 12,
+		"nombre": "Edward",
+		"numero": 3,
+		"id_forma_llamada": 1,
+		"descripcion": "Cum sociis natoque penatibus",
+		"estado": 0
+	},
+	{
+		"id_zona": 13,
+		"nombre": "Claire",
+		"numero": 4,
+		"id_forma_llamada": 0,
+		"descripcion": "feugiat non, lobortis quis, pede. Suspendisse",
+		"estado": 1
+	},
+	{
+		"id_zona": 14,
+		"nombre": "Reuben",
+		"numero": 8,
+		"id_forma_llamada": 0,
+		"descripcion": "vitae semper egestas, urna justo faucibus",
+		"estado": 0
+	},
+	{
+		"id_zona": 15,
+		"nombre": "Jameson",
+		"numero": 10,
+		"id_forma_llamada": 0,
+		"descripcion": "Etiam imperdiet",
+		"estado": 0
+	},
+	{
+		"id_zona": 16,
+		"nombre": "Hector",
+		"numero": 1,
+		"id_forma_llamada": 1,
+		"descripcion": "risus a ultricies",
+		"estado": 1
+	},
+	{
+		"id_zona": 17,
+		"nombre": "Vance",
+		"numero": 9,
+		"id_forma_llamada": 0,
+		"descripcion": "sodales at,",
+		"estado": 0
+	},
+	{
+		"id_zona": 18,
+		"nombre": "Hadley",
+		"numero": 4,
+		"id_forma_llamada": 1,
+		"descripcion": "Nullam scelerisque neque sed sem egestas blandit. Nam",
+		"estado": 1
+	},
+	{
+		"id_zona": 19,
+		"nombre": "Ursula",
+		"numero": 6,
+		"id_forma_llamada": 0,
+		"descripcion": "magnis dis parturient montes, nascetur",
+		"estado": 0
+	},
+	{
+		"id_zona": 20,
+		"nombre": "Mariam",
+		"numero": 9,
+		"id_forma_llamada": 0,
+		"descripcion": "vehicula aliquet libero. Integer in magna. Phasellus dolor elit,",
+		"estado": 1
+	},
+	{
+		"id_zona": 21,
+		"nombre": "Abraham",
+		"numero": 7,
+		"id_forma_llamada": 0,
+		"descripcion": "elit, a feugiat tellus lorem eu metus. In lorem.",
+		"estado": 1
+	},
+	{
+		"id_zona": 22,
+		"nombre": "Hop",
+		"numero": 4,
+		"id_forma_llamada": 0,
+		"descripcion": "elementum, dui quis",
+		"estado": 0
+	},
+	{
+		"id_zona": 23,
+		"nombre": "Todd",
+		"numero": 6,
+		"id_forma_llamada": 0,
+		"descripcion": "nec, diam. Duis mi enim, condimentum",
+		"estado": 0
+	},
+	{
+		"id_zona": 24,
+		"nombre": "Kermit",
+		"numero": 4,
+		"id_forma_llamada": 0,
+		"descripcion": "eleifend nec, malesuada ut, sem. Nulla interdum. Curabitur dictum. Phasellus",
+		"estado": 0
+	},
+	{
+		"id_zona": 25,
+		"nombre": "Elton",
+		"numero": 4,
+		"id_forma_llamada": 1,
+		"descripcion": "lorem ipsum sodales purus, in molestie tortor nibh sit",
+		"estado": 0
+	}
+]
